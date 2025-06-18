@@ -1,6 +1,9 @@
 .header {
-  
   &__title {
     margin-block-end: var(--spacing-xs);
+  }
+
+  &__body {
+    text-wrap: pretty;
   }
 }

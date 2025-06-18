@@ -50,6 +50,9 @@ ul {
 .header__title {
   margin-block-end: var(--spacing-xs);
 }
+.header__body {
+  text-wrap: pretty;
+}
 
 .task {
   display: grid;
