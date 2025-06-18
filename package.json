@@ -1,0 +1,15 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch ./assets/styles/main.scss ./assets/styles/main.css"
+  },
+  "keywords": [],
+  "author": "Aleksey Kerkin <aleksey.kerkin@yandex.ru>",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}
