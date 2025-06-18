@@ -5,7 +5,32 @@
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./assets/styles/styles.css" />
     <title>TODO App</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <h1 class="header__title">TODO List</h1>
+      <p class="header__body">Lorem ipsum dolor sit amet.</p>
+    </header>
+    <main class="app">
+      <form class="app__form">
+        <input
+          class="app__input"
+          type="text"
+          placeholder="Add a new task"
+          required />
+        <button
+          class="button"
+          type="submit">
+          Add Task
+        </button>
+      </form>
+      <ul class="app__list"></ul>
+    </main>
+    <footer class="footer"></footer>
+    <script src="./assets/scripts/main.js"></script>
+  </body>
 </html>
