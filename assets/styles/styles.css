@@ -153,6 +153,16 @@ ul {
   text-align: center;
   inline-size: 100%;
   color: var(--color-dark-gray);
+  padding-block: var(--spacing-sm);
+}
+.footer a {
+  text-decoration: none;
+  color: inherit;
+}
+.footer a:hover {
+  color: var(--color-gunmetal);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
 }
 
 /*# sourceMappingURL=styles.css.map */
