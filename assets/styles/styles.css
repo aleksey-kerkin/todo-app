@@ -1,3 +1,23 @@
+@font-face {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300 900;
+  font-stretch: 100%;
+  src: local("Rubik Light"), local("Rubik-Light"), url(../fonts/Rubik/rubik-light.woff2) format("woff2");
+  font-display: swap;
+}
+:root {
+  --color-black: hsla(152, 100%, 3%, 1);
+  --color-gunmetal: hsla(182, 33%, 16%, 1);
+  --color-dark-gray: hsla(10, 0%, 25%, 1);
+  --color-light-gray: hsla(185, 17%, 61%, 1);
+  --color-white: hsla(142, 100%, 98%, 1);
+  --spacing: 1.5rem;
+  --border-radius: 0.5rem;
+  --box-shadow: var(--space) var(--space) 0 0 var(--color-black);
+  --font-family: Rubik;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +27,10 @@
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
 }
 
 /*# sourceMappingURL=styles.css.map */
