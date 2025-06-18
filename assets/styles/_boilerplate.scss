@@ -10,5 +10,14 @@
 }
 
 body {
+  display: grid;
+  place-content: center;
+  min-height: 100dvh;
   font-family: var(--font-family);
+  color: var(--color-black);
+  background-color: var(--color-light-gray);
+}
+
+ul {
+  list-style-type: none;
 }

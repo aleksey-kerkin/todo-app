@@ -5,11 +5,16 @@
   --color-light-gray: hsla(185, 17%, 61%, 1);
   --color-white: hsla(142, 100%, 98%, 1);
 
-  --spacing: 1.5rem;
+  --spacing-base: 1.5rem;
+  --spacing-xl: calc(var(--spacing-base) * 2);
+  --spacing-lg: calc(var(--spacing-base) * 1.5);
+  --spacing-sm: calc(var(--spacing-base) / 2);
+  --spacing-xs: calc(var(--spacing-base) / 4);
 
-  --border-radius: 0.5rem;
+  --border-radius: calc(var(--spacing-base) / 3);
+  --border-radius-sm: calc(var(--border-radius) / 2);
 
-  --box-shadow: var(--space) var(--space) 0 0 var(--color-black);
+  --box-shadow: var(--spacing-xs) var(--spacing-xs) 0 0 var(--color-black);
 
   --font-family: Rubik;
 }
